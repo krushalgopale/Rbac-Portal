@@ -13,12 +13,12 @@ This is a simple Golang web application with Role-Based Access Control (RBAC) fo
 - Doctor can:
   - View all registered patients
   - Update patient medical information
-- PostgreSQL database integration
 - JWT-based authentication
 
-## Tech Stack
+## Technologies Used
 
-- Golang (Gin framework)
-- PostgreSQL
-- GORM (ORM)
-- JWT Authentication
+- **Go Programming Language:** The core language used to develop the application.
+- **Gin Web Framework:** A lightweight web framework for building web applications in Go.
+- **GORM:** An Object-Relational Mapping (ORM) library used for interacting with the database.
+- **PostgreSQL:** The database used to store information and roles.
+
