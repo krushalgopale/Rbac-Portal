@@ -56,3 +56,20 @@ The project follows a structured design with directories for controllers, models
 │   └── routes
 │       └── routes.go
 └── main.go
+```
+## Installation
+
+### 1. Clone the Repository
+```
+git clone https://github.com/krushalgopale/Rbac-Portal.git
+cd Rbac-Portal
+```
+### 2. Install Go Dependencies
+```
+go mod tidy
+```
+### 3. Run the Server
+```
+go run main.go
+```
+### Note: Create a .env file and configure your environment variables (database connection, secret, etc.
