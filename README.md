@@ -15,3 +15,10 @@ This is a simple Golang web application with Role-Based Access Control (RBAC) fo
   - Update patient medical information
 - PostgreSQL database integration
 - JWT-based authentication
+
+## Tech Stack
+
+- Golang (Gin framework)
+- PostgreSQL
+- GORM (ORM)
+- JWT Authentication
