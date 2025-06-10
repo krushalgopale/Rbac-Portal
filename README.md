@@ -72,4 +72,5 @@ go mod tidy
 ```
 go run main.go
 ```
-### Note: Create a .env file and configure your environment variables (database connection, secret, etc.
+### Note: Create a .env file and configure your environment variables (database connection, secret, etc.)
+
