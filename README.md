@@ -55,4 +55,4 @@ The project follows a structured design with directories for controllers, models
 │   │   └── user_test.go
 │   └── routes
 │       └── routes.go
-└── main.go ```
+└── main.go
