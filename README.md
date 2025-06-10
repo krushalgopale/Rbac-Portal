@@ -24,7 +24,7 @@ This is a simple Golang web application with Role-Based Access Control (RBAC) fo
 
 ## Project Structure
 The project follows a structured design with directories for controllers, models, middlewares, and routes.
-.
+```
 ├── go.mod
 ├── go.sum
 ├── internal
@@ -55,4 +55,4 @@ The project follows a structured design with directories for controllers, models
 │   │   └── user_test.go
 │   └── routes
 │       └── routes.go
-└── main.go
+└── main.go ```
