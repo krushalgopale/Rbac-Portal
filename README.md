@@ -57,6 +57,13 @@ The project follows a structured design with directories for controllers, models
 │       └── routes.go
 └── main.go
 ```
+## API Documentation
+
+You can explore all the APIs via Postman:
+```
+https://www.postman.com/docking-module-technologist-38792832/workspace/public/collection/42460310-2d6c996b-7937-4854-aa0f-2bc2b174c3db?action=share&creator=42460310
+```
+
 ## Installation
 
 ### 1. Clone the Repository
