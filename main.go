@@ -12,7 +12,7 @@ import (
 
 func main() {
 	loadEnv()
-	loadDatabse()
+	loadDatabase()
 	serveApplication()
 }
 
@@ -24,7 +24,7 @@ func loadEnv() {
 	log.Println(".env file loaded successfully")
 }
 
-func loadDatabse() {
+func loadDatabase() {
 	database.ConnDB()
 }
 

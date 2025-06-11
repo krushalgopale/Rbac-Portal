@@ -29,6 +29,7 @@ func Routes(r *gin.Engine) {
 			receptionistGroup.GET("/dashboard", receptionist.ReceptionistController)
 			receptionistGroup.POST("/createpatient", receptionist.CreatePatientRecord)
 			receptionistGroup.GET("/patients", receptionist.GetPatientRecords)
+			receptionistGroup.GET("/patient/:id", receptionist.GetPatientRecordById)
 			receptionistGroup.PUT("/patient/:id", receptionist.UpdatePatientRecord)
 			receptionistGroup.DELETE("/patient/:id", receptionist.DeletePatientRecord)
 		}
@@ -39,6 +40,7 @@ func Routes(r *gin.Engine) {
 		{
 			doctorGroup.GET("/dashboard", doctor.DoctorController)
 			doctorGroup.GET("/patients", doctor.GetPatientRecords)
+			doctorGroup.GET("/patient/:id", doctor.GetPatientRecordById)
 			doctorGroup.PUT("/patient/:id", doctor.UpdatePatientRecord)
 		}
 	}

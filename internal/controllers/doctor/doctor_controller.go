@@ -22,6 +22,21 @@ func GetPatientRecords(c *gin.Context) {
 	}
 
 	c.JSON(http.StatusOK, gin.H{"Records of patients": records})
+}
+
+// Get patient record by patient-id
+func GetPatientRecordById(c *gin.Context) {
+	var record models.Patient
+
+	patientID := c.Param("id")
+
+	result := database.DB.First(&record, patientID)
+	if result.Error != nil {
+		c.JSON(http.StatusNotFound, gin.H{"error": "Patient not found"})
+		return
+	}
+	
+	c.JSON(http.StatusOK, gin.H{"Record of patient": record})
 
 }
 
